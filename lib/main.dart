@@ -21,8 +21,8 @@ class _ElevatedButtonAutonomoState extends State<ElevatedButtonAutonomo> {
     {'label': 'Eliminar', 'icon': Icons.delete, 'color': Colors.red},
     {'label': 'Editar', 'icon': Icons.edit, 'color': Colors.purple},
     {'label': 'Buscar', 'icon': Icons.search, 'color': Colors.teal},
+    {'label': 'Configuración', 'icon': Icons.settings, 'color': Colors.brown},
     {'label': 'Ayuda', 'icon': Icons.help, 'color': Colors.indigo},
-     {'label': 'Configuración', 'icon': Icons.settings, 'color': Colors.brown},
   ];
 
   @override
@@ -93,6 +93,7 @@ class _ElevatedButtonAutonomoState extends State<ElevatedButtonAutonomo> {
                       });
                     },
                     style: ElevatedButton.styleFrom(
+                      minimumSize: Size(100, 40), // Ancho y alto del botón
                       backgroundColor: Colors.white,
                       foregroundColor: Colors.brown,
                       shape: RoundedRectangleBorder(
@@ -114,6 +115,7 @@ class _ElevatedButtonAutonomoState extends State<ElevatedButtonAutonomo> {
                   TextButton(
                     onPressed: () {},
                     style: TextButton.styleFrom(
+                      minimumSize: Size(100, 40), // Ancho y alto del botón
                       backgroundColor: Colors.white,
                       foregroundColor: Colors.brown,
                       shape: RoundedRectangleBorder(
@@ -138,6 +140,7 @@ class _ElevatedButtonAutonomoState extends State<ElevatedButtonAutonomo> {
                           // Acción del botón
                         },
                         style: ElevatedButton.styleFrom(
+                          minimumSize: Size(100, 40), // Ancho y alto del botón
                           backgroundColor: data['color'],
                           foregroundColor: Colors.white,
                           shape: RoundedRectangleBorder(
