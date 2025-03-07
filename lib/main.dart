@@ -20,6 +20,8 @@ class _ElevatedButtonAutonomoState extends State<ElevatedButtonAutonomo> {
     {'label': 'Guardar', 'icon': Icons.save, 'color': Colors.orange},
     {'label': 'Eliminar', 'icon': Icons.delete, 'color': Colors.red},
     {'label': 'Editar', 'icon': Icons.edit, 'color': Colors.purple},
+    {'label': 'Buscar', 'icon': Icons.search, 'color': Colors.teal},
+
   ];
 
   @override
